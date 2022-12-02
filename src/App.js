@@ -1,16 +1,19 @@
 //import ClassComponent from'./ClassComponent'
 //import PropsExample from './PropsExample'
-import Demo from './Demo'
+import JSX from './JSX'
+//import Demo from './Demo'
 import Events from './Events'
  import StateExample from './StateExample'
-import FuncProps from './FuncProps'
+//import FuncProps from './FuncProps'
 
 function App(){
   return(
     <section>
+        <StateExample/>
+      {/*<JSX/>
       <Events/>
       <Demo price="1st price"/>
-      {/*<StateExample/>
+    
       <FuncProps carname="swift" year="387543287"/>
       <PropsExample name="singam" age="21" />
       <PropsExample name="gani" age="21" />
