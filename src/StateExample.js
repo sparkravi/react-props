@@ -14,6 +14,8 @@ class StateExample extends React.Component{
                 {
                     this.state.employee.map((emp)=>(
                         <div> <p>{emp.id}</p>
+                            
+                            
                             <p>{emp.name}</p>
                         </div>
                     ))
